@@ -6,4 +6,27 @@
   #services a {
     color: white;
   }
+
+  .serviceMain {
+    height: 4468px;
+  }
+
+  .serviceCenter {
+    height: 4202px;
+  }
+
+  .serviceBox {
+    width: 90%;
+    flex-direction: column !important;
+    height: 550px !important;
+  }
+
+  .serviceBoxLeft,
+  .serviceBoxRight {
+    width: 100%;
+  }
+
+  .SBLh1 {
+    font-size: 30px;
+  }
 }

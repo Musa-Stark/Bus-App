@@ -1,26 +1,99 @@
 @font-face {
-    font-family: "poppinsBold";
-    src: url(Fonts/Poppins-Black.ttf);
-  }
-  
-  @font-face {
-    font-family: "poppinsMedium";
-    src: url(Fonts/Poppins-Medium.ttf);
-  }
-  
-  @font-face {
-    font-family: "poppinsRegular";
-    src: url(Fonts/Poppins-Regular.ttf);
-  }
-  
-  :root {
-    --primary-color: #53302c;
-    --bg-color1: #f4f5f7;
-  }
+  font-family: "poppinsBold";
+  src: url(Fonts/Poppins-Black.ttf);
+}
 
-  body {
-    width: 100%;
-    height: 300vh;
-    font-family: "poppinsRegular";
-    overflow-x: hidden;
-  }
+@font-face {
+  font-family: "poppinsMedium";
+  src: url(Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "poppinsRegular";
+  src: url(Fonts/Poppins-Regular.ttf);
+}
+
+:root {
+  --primary-color: #53302c;
+  --bg-color1: #f4f5f7;
+}
+
+body {
+  width: 100%;
+  font-family: "poppinsRegular";
+  overflow-x: hidden;
+}
+
+.aboutMain {
+  width: 100%;
+  height: 1200px;
+  background-color: var(--bg-color1);
+  /* border: 3px solid red; */
+}
+
+.aboutHeading {
+  width: 100%;
+  height: 250px;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: white;
+  font-family: "poppinsBold", sans-serif !important;
+}
+
+.aboutCenter {
+  width: 100%;
+  height: 945px;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+
+}
+
+.ACBox {
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.ACBox1 {
+  height: 435px;
+}
+
+.ACBox2 {
+  height: 335px;
+  flex-direction: row-reverse;
+}
+
+.ACBoxLeft {
+  height: 100%;
+  width: 53%;
+  /* border: 2px solid forestgreen; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ACBoxRight {
+  height: 100%;
+  width: 43%;
+  border: 2px solid orange;
+}
+
+.ACBoxh1 {
+  font-family: "poppinsBold";
+  color: var(--primary-color);
+  font-size: 35px;
+}
+
+.ACBoxPara {
+  font-family: "poppinsRegular";
+}
