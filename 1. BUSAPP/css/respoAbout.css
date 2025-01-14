@@ -1,0 +1,58 @@
+@media screen and (max-width: 750px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #about {
+    background-color: var(--primary-color);
+  }
+
+  #about a {
+    color: white;
+  }
+
+  .aboutMain {
+    height: 2110px;
+    /* border: 2px solid yellow; */
+  }
+
+  .aboutCenter {
+    height: 1860px;
+    /* border: 2px solid green; */
+    justify-content: space-evenly;
+    gap: 0;
+  }
+
+  .ACBox {
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 90%;
+  }
+
+  .ACBox1 {
+    height: 1010px;
+  }
+
+  .ACBox2 {
+    height: 730px;
+    justify-content: space-between;
+  }
+
+  .ACBox2 > .ACBoxLeft {
+    height: 350px;
+  }
+
+  .ACBoxLeft,
+  .ACBoxRight {
+    width: 100%;
+  }
+
+  .ACBoxLeft {
+    /* border: 2px solid red; */
+    height: 625px;
+  }
+
+  .ACBoxRight {
+    height: 310px;
+  }
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 750px) {
+  #RBO {
+    background-color: var(--primary-color);
+  }
+
+  #RBO a {
+    color: white;
+  }
+
+  .versionh1 {
+    font-size: 30px !important;
+    margin-left: 35px;
+  }
+}

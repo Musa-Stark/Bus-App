@@ -3,6 +3,10 @@
         --primary-color: #53302c;
         --bg-color1: #e1e5ee;
       }
+
+      main {
+        overflow-x: hidden;
+      }
     
       nav {
         display: none;
@@ -87,6 +91,7 @@
         left: 0;
         right: 0 !important;
         width: 100%;
+        overflow-x: unset;
       }
     
       #linkListMob {

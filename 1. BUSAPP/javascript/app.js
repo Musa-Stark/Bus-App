@@ -36,20 +36,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const elLeft = document.querySelectorAll(".fade-in-X");
   const elRight = document.querySelectorAll(".fade-in-X-reverse");
   const elFade = document.querySelectorAll(".fade-in");
-  const elUp = document.querySelector(".versionh1");
   const VPHeight = window.innerHeight;
 
   function animate() {
     elLeft.forEach((el) => {
       const rect = el.getBoundingClientRect();
-      if (rect.top < VPHeight - 300) {
+      if (rect.top < VPHeight - 200) {
         el.style.transform = "translateX(0px)";
         el.style.opacity = "1";
       }
     });
     elRight.forEach((el) => {
       const rect = el.getBoundingClientRect();
-      if (rect.top < VPHeight - 300) {
+      if (rect.top < VPHeight - 200) {
         el.style.transform = "translateX(0px)";
         el.style.opacity = "1";
       }
