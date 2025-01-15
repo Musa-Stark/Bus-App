@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "poppinsBold";
+  src: url(Fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: "poppinsMedium";
+  src: url(Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "poppinsRegular";
+  src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "monteserrate";
+  src: url(Fonts/Montserrat-Regular.ttf);
+}
+
+:root {
+  --primary-color: #53302c;
+  --bg-color1: #f4f5f7;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  font-family: "poppinsRegular";
+}
+
+.refundMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 570px;
+}
+
+.serviceHeading {
+  width: 100%;
+  height: 250px;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: white;
+  font-family: "poppinsBold", sans-serif !important;
+  /* display: none; */
+}
+
+.refundCenter {
+  width: 90%;
+  /* border: 2px solid purple; */
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.refundHeading {
+  font-size: 40px;
+  font-family: "poppinsBold";
+  color: var(--primary-color);
+}
+
+.refundPara li {
+  /* border: 1px solid violet; */
+  list-style-type: decimal;
+}
+.refund {
+  background-color: #53302c;
+  color: white;
+}

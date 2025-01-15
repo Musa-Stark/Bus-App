@@ -13,48 +13,50 @@
   src: url(Fonts/Poppins-Regular.ttf);
 }
 
-@font-face {
-  font-family: "monteserrate";
-  src: url(Fonts/Montserrat-VariableFont_wght.ttf);
-}
-
 :root {
   --primary-color: #53302c;
   --bg-color1: #f4f5f7;
 }
 
 body {
-  background-color: var(--bg-color1);
   width: 100%;
   height: auto;
   overflow-x: hidden;
   font-family: "poppinsRegular";
 }
 
-.RBOMain {
-    height: 380px;
-    width: 100%;
+.partnersMain {
+  width: 100%;
+  height: 350px;
 }
 
-.RBOCenter {
+.serviceHeading {
+  width: 100%;
+  height: 200px;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: white;
+  font-family: "poppinsBold", sans-serif !important;
+}
+
+.partnersContent {
     width: 100%;
-    height: 130px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#regBusOP {
-    height: 70px;
-    width: 308px;
+.partnersPara {
+    font-size: 17px;
+    margin: auto auto;
+    width: 90%;
+}
+
+.partners {
     background-color: var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-.regBUSOPHeading {
-    font-size: 14px;
-    font-family: "monteserrate", sans-serif;
     color: white;
 }

@@ -1,0 +1,16 @@
+@media screen and (max-width: 750px) {
+  .TNCMain {
+    overflow: unset;
+    height: 2620px;
+  }
+
+  .mainContent {
+    height: 97%;
+    width: 80%;
+  }
+
+  .mainContent h1 {
+    font-size: 27px;
+    height: 50px;
+  }
+}

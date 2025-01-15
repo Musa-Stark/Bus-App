@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "poppinsBold";
+  src: url(Fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: "poppinsMedium";
+  src: url(Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "poppinsRegular";
+  src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "monteserrate";
+  src: url(Fonts/Montserrat-Regular.ttf);
+}
+
+:root {
+  --primary-color: #53302c;
+  --bg-color1: #f4f5f7;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  font-family: "poppinsRegular";
+}
+
+.TNCMain {
+  width: 100%;
+  height: 1111px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContent {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainContentHeading {
+  font-size: 40px;
+  font-family: "poppinsBold", sans-serif;
+  color: var(--primary-color);
+  position: relative;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.mainContentHeading:after {
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 150px;
+  background-color: var(--primary-color);
+}
+
+.TNCOL li {
+    list-style-type: decimal;
+}
+
+
+ol li {
+  margin-top: 15px;
+}
+
+.TNC {
+  background-color: #53302c;
+  color: white;
+}

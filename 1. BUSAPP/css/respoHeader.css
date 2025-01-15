@@ -57,7 +57,7 @@
         justify-content: center;
       }
     
-      .headerLi:hover a {
+      .headerLi:active a {
         background-color: var(--primary-color);
         color: white;
       }
@@ -92,10 +92,6 @@
         right: 0 !important;
         width: 100%;
         overflow-x: unset;
-      }
-    
-      #linkListMob {
-        background: red;
       }
     
       .linkBoxItem {

@@ -1,0 +1,11 @@
+@media screen and (max-width: 750px) {
+  .privacyMain {
+    overflow: unset;
+    height: 2400px;
+  }
+
+  .mainContent {
+    height: 98%;
+    width: 90%;
+  }
+}

@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "poppinsBold";
+  src: url(Fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: "poppinsMedium";
+  src: url(Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "poppinsRegular";
+  src: url(Fonts/Poppins-Regular.ttf);
+}
+
+:root {
+  --primary-color: #53302c;
+  --bg-color1: #f4f5f7;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  font-family: "poppinsRegular";
+}
+
+.pricingMain {
+  width: 100%;
+  height: 800px;
+}
+
+.serviceHeading {
+  width: 100%;
+  height: 250px;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: white;
+  font-family: "poppinsBold", sans-serif !important;
+  /* display: none; */
+}
+
+.pricingCenter {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricingContent {
+  width: 80%;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.downBtn {
+  display: block;
+  width: 185px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.downBtn button {
+  font-size: 16px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  height: 220px;
+  overflow-x: auto;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  font-size: 18px;
+  min-width: 600px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+  background-color: #5a2d29;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 20px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: none;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1eaea;
+  cursor: default;
+}
+
+ol {
+  width: 100%;
+}
+
+ol li {
+  list-style-type: decimal;
+}
+
+.pricing {
+  background-color: #53302c;
+  color: white;
+}

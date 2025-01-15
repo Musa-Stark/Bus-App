@@ -1,0 +1,14 @@
+@media screen and (max-width: 750px) {
+  .refundMain {
+    overflow: unset;
+    height: 1170px !important;
+    justify-content: space-evenly !important;
+    /* gap: 50px; */
+  }
+
+  .refundCenter {
+    height: 760px !important;
+    width: 80% !important;
+    /* border: 1px solid red; */
+  }
+}

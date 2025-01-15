@@ -3,18 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register as a bus operator | Bus App</title>
+    <title>Pricing | Bus App</title>
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/respoHeader.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/respoFooter.css" />
-    <link rel="stylesheet" href="css/RBO.css" />
-    <link rel="stylesheet" href="css/respoRBO.css" />
-    <link rel="stylesheet" href="css/OVMain.css" />
+    <link rel="stylesheet" href="css/respoPricing.css" />
+    <link rel="stylesheet" href="css/pricing.css" />
     <link rel="stylesheet" href="css/animataions.css" />
   </head>
   <body>
-    <!-- Nav -->
+    <!-- nav -->
     <nav>
       <div class="navContent navContentLeft">
         <div class="navContentLeftData" id="phoneNmbr">
@@ -34,7 +33,7 @@
       </div>
       <div class="navContent navContentRight">
         <div class="socials">
-          <img src="imgs/fb.png" alt="fb.png" class="NCRlogos" />
+          <img src="imgs/fb.png" alt="fb" class="NCRlogos" />
           <img src="imgs/insta.png" alt="insta" class="NCRlogos" />
           <img src="imgs/in.png" alt="linkedin" class="NCRlogos" />
         </div>
@@ -44,18 +43,18 @@
       </div>
     </nav>
 
-    <!-- Header -->
+    <!-- header -->
     <header>
       <div class="CompanyLogo"></div>
       <div class="menuBtn"><img src="imgs/in.png" alt="" /></div>
       <ul class="headerUl" style="top: -300px">
         <li class="headerLi"><a href="index.html">Home</a></li>
-        <li class="headerLi" id="version">
-          <a href="our-version.html">Our Version</a>
-        </li>
+        <li class="headerLi"><a href="our-version.html">Our Version</a></li>
         <li class="headerLi"><a href="services.html">Services</a></li>
         <li class="headerLi"><a href="about.html">About Us</a></li>
-        <li id="RBO" class="headerLi"><a href="RBO.html">Register as a bus operator</a></li>
+        <li class="headerLi">
+          <a href="RBO.html">Register as a bus operator</a>
+        </li>
         <li class="headerLi" id="links">
           <a href="#">Links ▼</a>
         </li>
@@ -63,7 +62,7 @@
           <a href="privacy.html" class="linkBoxItem">Privacy Policy</a>
           <a href="T&C.html" class="linkBoxItem">Terms & Conditions</a>
           <a href="Refund.html" class="linkBoxItem">Refund Policy</a>
-          <a href="pricing.html" class="linkBoxItem">Pricing</a>
+          <a href="pricing.html" class="linkBoxItem pricing">Pricing</a>
           <a href="partners.html" class="linkBoxItem">Our Partners</a>
           <a href="contactUs.html" class="linkBoxItem">Contact Us</a>
         </div>
@@ -71,7 +70,7 @@
           <a href="privacy.html" class="linkBoxItem">Privacy Policy</a>
           <a href="T&C.html" class="linkBoxItem">Terms & Conditions</a>
           <a href="Refund.html" class="linkBoxItem">Refund Policy</a>
-          <a href="pricing.html" class="linkBoxItem">Pricing</a>
+          <a href="pricing.html" class="linkBoxItem pricing">Pricing</a>
           <a href="partners.html" class="linkBoxItem">Our Partners</a>
           <a href="contactUs.html" class="linkBoxItem">Contact Us</a>
         </div>
@@ -79,18 +78,61 @@
     </header>
 
     <!-- main -->
-    <main class="RBOMain">
-      <div class="versionHeading">
-        <div class="versionh1 fade-in-Y">REGISTER AS A BUS OPERATOR</div>
+    <main class="pricingMain">
+      <div class="serviceHeading">
+        <div class="serviceh1 fade-in-Y">PRICING</div>
       </div>
-      <div class="RBOCenter">
-        <div id="regBusOP">
-            <h2 class="regBUSOPHeading">REGISTER AS A BUS OPERATOR</h2>
+
+      <div class="pricingCenter">
+        <div class="pricingContent">
+          <a class="downBtn" href="#">
+            <button class="Download">Download App</button>
+          </a>
+          <div class="table">
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  <th>FROM</th>
+                  <th>TO</th>
+                  <th>DATE AND TIME</th>
+                  <th>PRICE</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Peshawar</td>
+                  <td>RWP</td>
+                  <td>08/05/2024 07:00 PM</td>
+                  <td>4500PKR</td>
+                </tr>
+                <tr>
+                  <td>Karachi</td>
+                  <td>ISB</td>
+                  <td>08/05/2024 03:00 PM</td>
+                  <td>3000PKR</td>
+                </tr>
+                <tr>
+                  <td>QUETTA</td>
+                  <td>LAHORE</td>
+                  <td>08/05/2024 10:00 AM</td>
+                  <td>5500PKR</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
+
+          <ol>
+            <li>The pricing and schedule changes every day</li>
+            <li>
+              After launching our app proper schedule and booking will live on
+              our app
+            </li>
+          </ol>
+        </div>
       </div>
     </main>
 
-    <!-- Footer -->
+    <!-- footer -->
     <footer id="footer">
       <div class="footerContent">
         <div class="footerElement FE1">
@@ -99,7 +141,7 @@
             Welcome to Bus App! We are a group of passionate individuals who
             have come together to launch a unique and innovative platform
             dedicated to simplifying bus ticket bookings for travelers across
-            the Country
+            the Country.
           </p>
           <div class="footerIcons">
             <a href="#"><img class="footerIcon" src="imgs/fb.png" alt="" /></a>
@@ -139,8 +181,8 @@
           <div class="footerAdress">
             <img src="imgs/location.png" alt="" class="footerAddressLogo" />
             <p class="footerAddressPara">
-              SHOP NO. 97,, 3RD FLOOR, MANZIL SARAAF ORANGI MALL,, COMMERCIAL
-              PLOT NO. ST-2. SECTOR 3, ORANGI TOWN, Pakistan
+              SHOP NO. 97, 3RD FLOOR, MANZIL SARAAF ORANGI MALL, COMMERCIAL PLOT
+              NO. ST-2. SECTOR 3, ORANGI TOWN, Pakistan
             </p>
           </div>
         </div>
@@ -150,7 +192,6 @@
       </div>
     </footer>
 
-    <!-- script -->
     <script src="javascript/app.js"></script>
     <script src="javascript/versionApp.js"></script>
   </body>
