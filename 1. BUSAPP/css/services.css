@@ -48,7 +48,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: var(--bg-color1);
+  background-color: #fff;
 }
 
 .serviceBox {
@@ -79,7 +79,6 @@ body {
 
 .serviceBoxRight {
   height: 100%;
-  border: 2px solid orange;
   width: 40%;
 }
 

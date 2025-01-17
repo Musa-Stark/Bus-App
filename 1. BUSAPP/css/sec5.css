@@ -17,7 +17,6 @@
 .sec5Right {
   height: 70%;
   width: 40%;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   gap: 5%;

@@ -28,7 +28,6 @@ body {
   width: 100%;
   height: 1200px;
   background-color: var(--bg-color1);
-  /* border: 3px solid red; */
 }
 
 .aboutHeading {
@@ -52,12 +51,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10%;
-
 }
 
 .ACBox {
   width: 80%;
-  /* border: 1px solid black; */
   display: flex;
   justify-content: space-between;
 }
@@ -74,7 +71,6 @@ body {
 .ACBoxLeft {
   height: 100%;
   width: 53%;
-  /* border: 2px solid forestgreen; */
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -85,7 +81,6 @@ body {
 .ACBoxRight {
   height: 100%;
   width: 43%;
-  border: 2px solid orange;
 }
 
 .ACBoxh1 {

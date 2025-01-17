@@ -17,7 +17,15 @@
 .sec3Right {
   width: 35%;
   height: 100%;
-  border: 1px solid;
+}
+
+.sec3Left {
+  position: relative;
+}
+
+.sec3Left img {
+  position: absolute;
+  bottom: 0;
 }
 
 .sec3Right {

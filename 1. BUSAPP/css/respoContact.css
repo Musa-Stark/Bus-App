@@ -1,0 +1,34 @@
+@media screen and (max-width: 750px) {
+    body {
+        overflow-x: unset;
+    }
+
+    .contactMain {
+        height: 1350px;
+    }
+
+    .contactCenter {
+        height: 1100px;
+    }
+
+    .CCupper {
+        width: 90%;
+        height: 1000px;
+        justify-content: space-evenly;
+    }
+
+    .contact-container {
+        border: 2px solid white;
+        flex-direction: column;
+        height: 75%;
+    }
+
+    .CCh1 {
+        font-size: 20px;
+    }
+
+    .CCH1 {
+        text-align: center;
+        font-size: 35px;
+    }
+}

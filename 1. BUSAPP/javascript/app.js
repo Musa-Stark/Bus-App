@@ -18,8 +18,18 @@ linkBtn.addEventListener("click", () => {
 
 // MenuBtn
 const menuBtn = document.querySelector(".menuBtn");
+let l1 = document.querySelector(".line1");
+let l2 = document.querySelector(".line2");
+let l3 = document.querySelector(".line3");
 const menuList = document.querySelector(".headerUl");
 menuBtn.addEventListener("click", () => {
+  l1.classList.toggle("l1after");
+  l2.classList.toggle("l2after");
+  l3.classList.toggle("l3after");
+  menuBtn.style.backgroundColor = "#976100";
+  setTimeout(() => {
+    menuBtn.style.backgroundColor = "orange";
+  }, 200);
   if (linkListMob.style.top === "290px") {
     linkListMob.style.top = "-350px";
   }

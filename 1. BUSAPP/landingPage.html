@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      @font-face {
+        font-family: "poppinsMedium";
+        src: url(css/Fonts/Poppins-Medium.ttf);
+      }
+
+      body {
+        font-family: "poppinsMedium", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+      }
+
+      #whatsapp {
+        position: fixed;
+        bottom: 15px;
+        left: 15px;
+        z-index: 1000;
+        width: 50px;
+      }
+
+      .coming-soon-card {
+        width: 800px;
+        background-color: #5a2d29;
+        color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        box-shadow: 0 8px 20px #6c6c6c;
+      }
+
+      .content {
+        width: 60%;
+      }
+
+      .content h1 {
+        font-size: 3rem;
+        margin: 0;
+        color: #fff;
+      }
+
+      .content h2 {
+        font-size: 2rem;
+        margin: 10px 0;
+        color: #ffffff;
+      }
+
+      .contact-info p {
+        margin: 5px 0;
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .contact-info a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .design-elements {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+      }
+
+      .qr-code img {
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://wa.me/+923315032419"
+      ><img src="imgs/WA.png" id="whatsapp" alt=""
+    /></a>
+    <div class="coming-soon-card">
+      <div class="content">
+        <h1>Coming Soon</h1>
+        <h2>IOS and ANDRIOD</h2>
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> support@busapp.pk</p>
+          <p><i class="fas fa-phone"></i> +923315032419</p>
+          <p><i class="fas fa-map-marker-alt"></i> Karachi</p>
+          <p>
+            <i class="fas fa-link"></i>
+            <a href="index.html">http://busapp.pk/</a>
+          </p>
+        </div>
+      </div>
+      <div class="design-elements">
+        <div class="qr-code">
+          <img src="" alt="QR Code" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
