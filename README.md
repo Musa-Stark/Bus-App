@@ -1,8 +1,8 @@
 # Bus App
 This is bus app repository!!
 
-# Intro (20 June 2025/11:47 PM):
+## Info (20 June 2025/11:47 PM):
 I created this website for my cousin (Awais). It was my first project that gone live and is still live.
 
-#URL:
-https://busapp.pk/
+> URL:
+[Bus App](https://busapp.pk/)
