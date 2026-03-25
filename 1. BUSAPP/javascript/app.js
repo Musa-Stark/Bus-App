@@ -1,3 +1,8 @@
+const donwloadApp = () => {
+  window.location.href =
+    "https://play.google.com/store/apps/details?id=com.smaz.busapp";
+};
+
 const linkBtn = document.querySelector("#links");
 const linkList = document.querySelector("#linkList");
 const linkListMob = document.querySelector("#linkListMob");

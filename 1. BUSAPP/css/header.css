@@ -46,6 +46,7 @@ li {
 .invert {
   filter: invert(1);
 }
+
 button {
   cursor: pointer;
   text-transform: capitalize;
